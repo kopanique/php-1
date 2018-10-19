@@ -1,8 +1,8 @@
-# php Cookbook
+# PHP Cook Book
 
 [![Build Status](https://travis-ci.org/chef-cookbooks/php.svg?branch=master)](http://travis-ci.org/chef-cookbooks/php) [![Cookbook Version](https://img.shields.io/cookbook/v/php.svg)](https://supermarket.chef.io/cookbooks/php)
 
-It installs and configures PHP and the PEAR package management system. Also includes resources for managing PEAR (and PECL) packages, PECL channels, and PHP-FPM pools.
+It install and configures PHP and the PEAR package management system. Also includes resources for managing PEAR (and PECL) packages, PECL channels, and PHP-FPM pools.
 
 ## Requirements
 
@@ -30,11 +30,11 @@ It installs and configures PHP and the PEAR package management system. Also incl
 The file also contains the following attribute types:
 
 - platform specific locations and settings.
-- source installation settings
+- source installation settings.
 
 ## Resources
 
-This cookbook includes resources for managing:
+This cook book includes resources for managing:
 
 - PEAR channels
 - PEAR/PECL packages
@@ -45,10 +45,10 @@ This cookbook includes resources for managing:
 
 #### Actions
 
-- `:discover`: Initialize a channel from its server.
-- `:add`: Add a channel to the channel list, usually only used to add private channels. Public channels are usually added using the `:discover` action
-- `:update`: Update an existing channel
-- `:remove`: Remove a channel from the List
+- `:discover`: Initialize a channel from its server;
+- `:add`: Add a channel to the channel list, usually only used to add private channels. Public channels are usually added using the `:discover` action;
+- `:update`: Update an existing channel;
+- `:remove`: Remove a channel from the List.
 
 #### Properties
 
